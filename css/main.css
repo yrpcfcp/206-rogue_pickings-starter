@@ -51,6 +51,7 @@ header {
     justify-content: center;
     align-items: center;
     flex-flow: row wrap;
+	text-align: center;
 	border-bottom: 3px solid #77a466;
 	margin: 0 auto;
 	width: 100%;
@@ -79,7 +80,9 @@ header nav ul li {
 	font-size: 14px;
 	padding: 0 10px;
 	display: inline;
+	list-style: none; 
 }
+
 header nav ul li a{
 	text-decoration: none;
 	color:#77a466;
@@ -92,7 +95,7 @@ header nav ul li a{
 	justify-content: center;
   	align-items: center;
   	flex-flow: row wrap;
-	width: 100%;
+	width: 33%;
 	/* margin: 0 auto; */
 }
 
