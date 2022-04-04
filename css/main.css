@@ -182,11 +182,43 @@ footer span {
 	font-size: 14px;
 }
 @media all and (min-width:768px) {
-    /* Tablet styles here */
- 
+.bottom-section {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-flow: row wrap;
+	flex-basis: auto;
+	width: 100%;
+} 
+.section-one,
+.section-two,
+.section-three {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+	height: auto;
+	flex-basis: auto;
+	border-top: 1px solid #eee;
+}
+
 }
  
 @media all and (min-width:1200px) {
-    /* Desktop styles here */
- 
+    header h1 {
+		width: ;
+		padding: ;
+		border-bottom: ;
+		text-align: ;
+	  }
+	header nav ul li a{
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		text-decoration: none;
+		color:#77a466;
+	}
+	nav{
+		width: 40%;
+	}
 }
